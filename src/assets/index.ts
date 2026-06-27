@@ -29,6 +29,8 @@ import goquant from "./company/image.png";
 import code from "./tech/image.png";
 import zerodha from "./tech/zerodha.png";
 import jobPortal from  "./tech/jobPortal.png";
+import resumeAI from "./tech/resumeAI.png";
+import medGuide from "./tech/medGuide.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,5 +70,7 @@ export {
   code,
   zerodha,
   jobPortal,
-  latency
+  latency,
+  resumeAI,
+  medGuide,
 };

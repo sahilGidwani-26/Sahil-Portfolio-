@@ -26,9 +26,11 @@ import {
   goquant,
   indux,
   code,
-  zerodha,
   jobPortal,
-  latency
+  
+  resumeAI,
+  medGuide,
+
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -178,16 +180,16 @@ const achievements = [
 
 const projects: TProject[] = [
   {
-    name: "Stock Trading Dashboard",
+    name: "Job Portal",
     description:
-      "Zerodha-inspired stock trading simulator that allows users to track stocks, simulate trades, and visualize market data using interactive charts.",
+      "Full stack MERN job portal where recruiters can post jobs, manage applications, and users can search, apply, and track applications with secure authentication and role-based access.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -195,50 +197,63 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: zerodha,
-    sourceCodeLink: "https://github.com/sahilGidwani-26/Zerodha-Clone",
+    image: jobPortal,
+    sourceCodeLink: "https://github.com/sahilGidwani-26/Job-Portal",
+    liveLink: "https://job-portal-ruddy-ten.vercel.app/",
   },
+
   {
-  name: "Job Portal",
-  description:
-    "Full stack MERN job portal where recruiters can post job openings and manage applications, while users can search jobs, apply easily, and track their applications. The platform includes secure authentication, role-based access (Recruiter/User), and a responsive dashboard for job management.",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "nodejs",
-      color: "green-text-gradient",
-    },
-    {
-      name: "mongodb",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: jobPortal,
-  sourceCodeLink: "https://github.com/sahilGidwani-26",
-},
- {
-    name: "Latency Topology Visualizer",
+    name: "ResumeAI",
     description:
-      "Interactive 3D visualization tool that displays latency between global cloud regions using Three.js and Mapbox GL for real-time network monitoring.",
+      "AI-powered MERN platform featuring ATS resume analysis, AI Resume Builder, Portfolio Analyzer, Mock Interviews, Roadmap Generator, Notes Generator, and personalized career guidance using AI.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "mapbox",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "openrouter",
+        color: "orange-text-gradient",
+      },
     ],
-    image: latency,
-    sourceCodeLink: "https://github.com/sahilGidwani-26/latency-visualizer",
+    image: resumeAI,
+    sourceCodeLink: "https://github.com/sahilGidwani-26/Resume-AI-",
+    liveLink: "https://resume-ai-beige-eta.vercel.app/",
+  },
+
+  {
+    name: "MedGuide AI",
+    description:
+      "AI-powered healthcare platform with symptom analysis, AI chatbot, nearby hospitals, live maps, JWT authentication, medical reports, emergency mode, and real-time communication using Socket.io.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: medGuide,
+    sourceCodeLink: "https://github.com/sahilGidwani-26/MedGuide-AI",
+    liveLink: "https://med-guide-ai-two.vercel.app/",
   },
 ];
 
